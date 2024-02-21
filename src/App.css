@@ -1,1 +1,26 @@
-
+body {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(229, 225, 225);
+}
+.container {
+  width: 736px;
+  height: 512px;
+  border-radius: 32px;
+  box-shadow: 0 30px 60px 0 rgba(61, 108, 236, 0.15);
+  background-color: #fff;
+  border: 1px solid red;
+  position: relative;
+}
+.blue-container {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  margin: 0 40px 0 0;
+  padding: 38px 54px 46px;
+  background-color: rgb(73, 73, 233);
+  border-radius: 32px;
+}
