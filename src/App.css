@@ -16,7 +16,6 @@ body {
   padding: 0 40px 0 0;
   box-shadow: 0 30px 60px 0 rgba(61, 108, 236, 0.15);
   background-color: #fff;
-  border: 1px solid red;
   position: relative;
 }
 .blue-container {
