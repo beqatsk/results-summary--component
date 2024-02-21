@@ -12,6 +12,8 @@ body {
   width: 736px;
   height: 512px;
   border-radius: 32px;
+  flex-grow: 0;
+  padding: 0 40px 0 0;
   box-shadow: 0 30px 60px 0 rgba(61, 108, 236, 0.15);
   background-color: #fff;
   border: 1px solid red;
@@ -80,4 +82,93 @@ h1 {
   line-height: normal;
   text-align: center;
   margin: 14px 0 0;
+}
+.white-container {
+  padding-top: 38px;
+  padding-left: 408px;
+}
+.summery {
+  font-size: 24px;
+  font-weight: bold;
+  color: #303b59;
+  text-align: left;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  margin-top: 28px;
+  margin-bottom: 41px;
+}
+.rectangle,
+.rectangle-memory,
+.rectangle-verbal,
+.rectangle-visual {
+  width: 288px;
+  height: 56px;
+  padding: 17px 16px 16px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.rectangle {
+  background-color: #fff7f7;
+}
+.rectangle-memory {
+  background-color: #fffcf4;
+}
+.rectangle-verbal {
+  background-color: #f3fcfa;
+}
+.rectangle-visual {
+  background-color: #ecf2ff;
+}
+.rectangle-react {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.react,
+.react-memory,
+.react-verbal,
+.react-visual {
+  font-size: 18px;
+  font-weight: 500;
+}
+.react {
+  color: #f55;
+}
+.react-memoru {
+  color: #ffb21e;
+}
+.react-verbal {
+  color: #00bb8f;
+}
+.react-visual {
+  color: #1125d6;
+}
+.rectangle-paragraph {
+  font-size: 18px;
+  font-weight: bold;
+  color: #9fa8c1;
+}
+.para-span {
+  font-size: 18px;
+  font-weight: bold;
+  color: #303b59;
+}
+button {
+  width: 288px;
+  height: 56px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 50px;
+  background-color: rgb(73, 73, 233);
+  color: #fff;
+  cursor: pointer;
+}
+button:hover {
+  background-color: rgb(7, 7, 132);
 }
