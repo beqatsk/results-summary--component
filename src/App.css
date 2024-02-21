@@ -1,9 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@100..900&display=swap");
 body {
   width: 100%;
   min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: HankenGrotesk;
   background-color: rgb(229, 225, 225);
 }
 .container {
@@ -23,4 +25,59 @@ body {
   padding: 38px 54px 46px;
   background-color: rgb(73, 73, 233);
   border-radius: 32px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+h1 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #cac9ff;
+}
+.oval {
+  width: 200px;
+  height: 200px;
+  margin: 35px 30px 28px;
+  padding: 55px 60px 46px 59px;
+  border-radius: 50%;
+  background-image: linear-gradient(
+    to bottom,
+    #4d21c9,
+    rgba(51, 20, 189, 0.64) 100%,
+    rgba(15, 12, 187, 0) 67%,
+    rgba(21, 19, 138, 0) 67%
+  );
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 4px;
+}
+.number {
+  font-size: 72px;
+  font-weight: 800;
+  text-align: center;
+  color: #fff;
+}
+.of-100 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #a0a0bf;
+}
+.great {
+  font-size: 32px;
+  font-weight: bold;
+  margin: 0 91px 14px 86px;
+  color: #fff;
+}
+.paragraph {
+  width: 230px;
+  height: 69px;
+  font-size: 18px;
+  font-weight: 500;
+  margin: 14px 0 0;
+  color: #cac9ff;
+  line-height: normal;
+  text-align: center;
+  margin: 14px 0 0;
 }
